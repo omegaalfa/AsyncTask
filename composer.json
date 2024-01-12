@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "omegaalfa\\src\\": "src/Promises/"
+      "OmegaAlfa\\Src\\Promises\\": "src/Promises/"
     }
   },
   "require-dev": {
