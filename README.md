@@ -13,6 +13,11 @@ O AsyncTaskManager é responsável por manter um pool de tarefas assíncronas. A
 
 O AsyncTask representa uma tarefa assíncrona. As tarefas são criadas instanciando objetos AsyncTask passando a lógica da tarefa como um callable no construtor.
 
+# Funcionalidades
+- Submissão de tarefas assíncronas ao gerenciador.
+- Execução de tarefas em segundo plano até que todas sejam concluídas.
+- Utiliza a funcionalidade de Fibers para permitir operações assíncronas.
+
 # Pré-requisitos
 
 PHP 8.1 ou superior
