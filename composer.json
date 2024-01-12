@@ -11,12 +11,11 @@
   ],
   "version": "1.0.0",
   "require": {
-    "php": ">=8.1",
-    "omegaalfa/async-task": "^1.0"
+    "php": ">=8.1"
   },
   "autoload": {
     "psr-4": {
-      "OmegaAlfa\\Src\\Promises\\": "src/Promises/"
+      "omegaalfa\\src\\": "src/Promises/"
     }
   },
   "require-dev": {
