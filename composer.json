@@ -9,6 +9,7 @@
             "email": "webdesenvolver.agenda@gmail.com"
         }
     ],
+    "version": "1.0",
     "require": {
         "php": ">=8.1"
     },
@@ -22,9 +23,5 @@
     },
     "scripts": {
         "test": "phpunit"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "prefer-lowest": false,
-    "version": "1.0"
+    }
 }
