@@ -30,8 +30,8 @@ Instruções sobre como instalar o repositório.
 
 ```php
 
-use src\tasks\AsyncTaskManager;
-use src\tasks\AsyncTask;
+use AsyncTask\AsyncTaskManager;
+use AsyncTask\AsyncTask;
 
 // Cria uma instância do AsyncTaskManager
 $taskManager = new AsyncTaskManager();
