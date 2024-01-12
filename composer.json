@@ -1,5 +1,5 @@
 {
-    "name": "omegaalfa/AsyncTask",
+    "name": "omegaalfa/async-task",
     "description": "PHP Async Task Manager using Fibers",
     "type": "library",
     "license": "MIT",
