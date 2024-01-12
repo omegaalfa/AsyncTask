@@ -1,9 +1,8 @@
 <?php
 
-namespace omegaalfa\AsyncTaskManager;
+namespace OmegaAlfa\AsyncTask;
 
 use Fiber;
-
 
 class AsyncTaskManager
 {
