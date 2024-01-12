@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "src\\": "src/"
+            "OmegaAlfa\\Src\\Promises\\": "src/Promises/"
         }
     },
     "require-dev": {
@@ -23,5 +23,6 @@
     "scripts": {
         "test": "phpunit"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
