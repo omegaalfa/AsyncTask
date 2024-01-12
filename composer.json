@@ -14,10 +14,10 @@
   },
   "autoload": {
     "psr-4": {
-      "omegaalfa\\src\\": "src/Promises/"
+      "omegaalfa\\async-task\\": "src/"
     }
   },
- "minimum-stability": "dev",
+  "minimum-stability": "dev",
   "require-dev": {
     "phpunit/phpunit": "^9.0"
   },
