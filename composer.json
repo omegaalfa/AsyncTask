@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "omegaalfa\\async-task\\": "src/"
+      "OmegaAlfa\\AsyncTask\\": "src/"
     }
   },
   "minimum-stability": "dev",
