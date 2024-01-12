@@ -24,5 +24,7 @@
         "test": "phpunit"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "version": "0.1.0"  // Substitua pela versão desejada
 }
