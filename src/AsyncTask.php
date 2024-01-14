@@ -1,6 +1,6 @@
 <?php
 
-namespace OmegaAlfa\AsyncTask;
+namespace src\tasks;
 
 use Closure;
 
@@ -13,6 +13,11 @@ class AsyncTask
 	protected $runnable;
 
 	/**
+	 * @var mixed
+	 */
+	protected mixed $result;
+
+	/**
 	 * @param  callable  $runnable
 	 */
 	public function __construct(callable $runnable)
@@ -21,12 +26,20 @@ class AsyncTask
 	}
 
 	/**
+	 * @return mixed
+	 */
+	public function getResult(): mixed
+	{
+		return $this->result ?? null;
+	}
+
+	/**
 	 * @return Closure
 	 */
 	public function run(): Closure
 	{
 		return function() {
-			call_user_func($this->runnable);
+			$this->result[] = call_user_func($this->runnable);
 		};
 	}
 }
