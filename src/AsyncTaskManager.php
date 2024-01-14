@@ -1,6 +1,6 @@
 <?php
 
-namespace src\tasks;
+namespace OmegaAlfa\AsyncTask;
 
 use Fiber;
 
