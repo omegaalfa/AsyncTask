@@ -1,6 +1,6 @@
 <?php
 
-namespace Omegaalfa\AsyncTask;
+namespace omegaalfa\AsyncTask;
 
 use Closure;
 
