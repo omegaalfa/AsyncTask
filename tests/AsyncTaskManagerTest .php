@@ -3,8 +3,8 @@
 // tests/AsyncTaskManagerTest.php
 
 use PHPUnit\Framework\TestCase;
-use src\tasks\AsyncTaskManager;
-use src\tasks\AsyncTask;
+use omegaalfa\AsyncTask\AsyncTaskManager;
+use omegaalfa\AsyncTask\AsyncTask;
 
 class AsyncTaskManagerTest extends TestCase
 {
